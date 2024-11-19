@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-19T19:20:57 IST" name="Surefire suite" finished-at="2024-11-19T19:21:07 IST" duration-ms="10000">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Steps.TestRunnerbehave@39529185]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-11-19T19:20:57 IST" name="Surefire test" finished-at="2024-11-19T19:21:07 IST" duration-ms="10000">
+      <class name="Steps.TestRunnerbehave">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Steps.TestRunnerbehave@39529185]" started-at="2024-11-19T19:20:57 IST" name="setUpClass" finished-at="2024-11-19T19:20:58 IST" duration-ms="1302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5782d777]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Steps.TestRunnerbehave@39529185]" started-at="2024-11-19T19:20:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-19T19:21:07 IST" duration-ms="8559" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["test login with valid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["feature to test login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Steps.TestRunnerbehave@39529185]" started-at="2024-11-19T19:21:07 IST" name="tearDownClass" finished-at="2024-11-19T19:21:07 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Steps.TestRunnerbehave -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
